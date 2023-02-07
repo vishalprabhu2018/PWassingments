@@ -1,0 +1,23 @@
+1) What is HTML?
+HTML is a hypertext markup languange and it is used to create web pages. It provides a structure for the content on a web page and allows you to 
+add text, images, videos, links and other elements to a web page. 
+HTML is used in conjunction with other technologies such as CSS and JavaScript to create dynamic and interactive web pages.
+
+
+
+
+2) What is CSS?
+CSS is cascading stylesheet. It is used for the designing purpose or for the formatting of the document written in HTML
+
+
+
+3)Why did Javascript come into the picture?
+Javascript provide functioning to the web page and also the web pages become dynamic and very fast by using javascript. 
+The HTML and css was not that much strong in processing and applying logic to the web pages, so that's a main reason the javascript came into picture.
+ 
+
+4)History of JavaScript and EcmaScript. Explain in your own words?
+JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. 
+It was originally designed to add interactivity to web pages, and its first implementation was shipped as part of Netscape Navigator 2.0.
+ECMAScript, on the other hand, is the standardized version of JavaScript, developed and maintained by the European Computer Manufacturers Association (ECMA). 
+The first version of ECMAScript was standardized in 1997, and it has since been updated several times to include new features and capabilities. 
