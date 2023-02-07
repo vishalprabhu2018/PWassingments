@@ -1,0 +1,27 @@
+1) Why do we start learning a programming language with “Hello World!"?
+  Hello World is used by the beginners when they start to code. So hello world program basically print string hello world in the screen.
+  That is basically used to test by the new programmer when they first start to learn the code.
+
+2) How is th use of comments and how do you write comments in HTML?
+   Comments are basically used by the programmer or developer so that other people can understand the code or when the coder sees that code after
+some time they can understand that what code  they had written in the past . So comment are basically text which are written in the code which is not compiled or
+interpreted by the machine. 
+In html we write comment in this way for eg <!-- this is comment tag in html -->
+
+Syntax: <!-- content -->
+
+3) What are elements tags and attributes and the diffrent between them.
+Elements are the building blocks of HTML (Hypertext Markup Language) that define the structure and content of a web page. For example,
+the paragraph element is written as <p>, and its content goes between the opening <p> and closing </p> tags.
+Attributes are used to provide additional information or modify the default behavior of an HTML element. 
+They are added to the opening tag of an element, in the form of key-value pairs. For example, the "src" attribute in an <img> element specifies the source URL of an image.
+So, in short, elements define the structure and content of a web page, while attributes provide additional information or modify the default behavior of elements.
+
+4) Briefly explain what HTML entities are.
+
+HTML entities are special characters or symbols that are reserved in HTML and have a specific meaning or function. 
+These entities are represented by a string of characters that start with an ampersand (&) and end with a semicolon (;).
+For example, the less than symbol (<) is represented by the HTML entity <, and the greater than symbol (>) is represented by the HTML entity >. 
+HTML entities are used to display special characters or symbols in a web page that might otherwise be interpreted as HTML code.
+Some commonly used HTML entities include © for copyright symbol, — for a long dash, and £ for the British pound symbol. 
+By using HTML entities, you can ensure that your web content is displayed correctly, regardless of the user's device or browser.
