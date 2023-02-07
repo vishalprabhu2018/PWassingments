@@ -1,0 +1,9 @@
+1)List all the tools you might use as  web developer
+VSCode is used to write the code ie a code editor. 
+We can use different type of plugins ie prettier, live server, auto close tag, auto rename tag in vs code. 
+
+
+2)What are some of the features of PW Skills Online Lab? Explain how they are useful.
+PW skill is a cloud based platform in which we can save and run our code. In the PW skills the vs code is already downloaded and deployed , so 
+we only have to write the code in that and we use to run our all assignment codes.
+
