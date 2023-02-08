@@ -1,0 +1,9 @@
+What is Emmet?
+Emmet is a web development toolkit that allows you to write HTML and CSS code faster and more efficiently. It provides a shorthand syntax 
+for quickly generating complex HTML and CSS code, making it easier to write, preview and debug your code. Emmet supports a wide range of 
+text editors and is compatible with HTML, XML, and other markup languages.
+
+
+
+what is advantage of using emmet?
+We can write the HTML code very fast with the help of the shortcut which emmet provides.

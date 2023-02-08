@@ -20,4 +20,4 @@ The HTML and css was not that much strong in processing and applying logic to th
 JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. 
 It was originally designed to add interactivity to web pages, and its first implementation was shipped as part of Netscape Navigator 2.0.
 ECMAScript, on the other hand, is the standardized version of JavaScript, developed and maintained by the European Computer Manufacturers Association (ECMA). 
-The first version of ECMAScript was standardized in 1997, and it has since been updated several times to include new features and capabilities. 
+The first version of ECMAScript was standardized in 1997, and it has since been updated several times to include new features and capabilities.  
