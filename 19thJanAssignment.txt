@@ -18,7 +18,6 @@ They are added to the opening tag of an element, in the form of key-value pairs.
 So, in short, elements define the structure and content of a web page, while attributes provide additional information or modify the default behavior of elements.
 
 4) Briefly explain what HTML entities are.
-
 HTML entities are special characters or symbols that are reserved in HTML and have a specific meaning or function. 
 These entities are represented by a string of characters that start with an ampersand (&) and end with a semicolon (;).
 For example, the less than symbol (<) is represented by the HTML entity <, and the greater than symbol (>) is represented by the HTML entity >. 
