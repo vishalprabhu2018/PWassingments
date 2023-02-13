@@ -50,17 +50,11 @@ The <a> (anchor) tag is used to create links in HTML, allowing users to navigate
 the URL of the linked resource, and the text between the opening and closing <a> tags serves as the anchor text that is displayed to the user.
 
 Example:
-
-php
-Copy code
 <a href="https://www.example.com">Visit the Example website</a>
 In this example, the anchor text "Visit the Example website" is linked to the URL "https://www.example.com". When the user clicks the link, they will be 
 taken to the specified URL in their web browser.
 
 You can also create links to other pages within your own website by using relative URLs. For example:
-
-php
-Copy code
 <a href="about.html">Learn more about us</a>
 In this example, the link points to the "about.html" page within the same website.
 
