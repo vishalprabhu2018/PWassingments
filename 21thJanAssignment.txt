@@ -1,0 +1,68 @@
+
+1)What are inline and block elemens in HTML and the difference between them? Name a few inline elements and block elements
+In HTML, elements are classified as either inline elements or block elements based on their default display behavior.
+
+Block elements occupy the full width of their parent container and create a new block formatting context, 
+causing any following elements to be positioned below it. Examples of block elements include:
+
+<div>
+<p>
+<h1> to <h6>
+<ol>
+<ul>
+<li>
+<header>
+<footer>
+<section>
+Inline elements, on the other hand, only occupy the width of their content and do not create a new block formatting context. 
+Examples of inline elements include:
+
+<span>
+<a>
+<img>
+<button>
+<input>
+<label>
+<select>
+<textarea>
+You can change the default display behavior of an element by using CSS. For example, you can set a block element to display as an inline element 
+or vice versa.
+
+
+2)How to work with images in HTML and explain in detail </img> tag important attribute.
+
+The <img> tag is used to embed images in HTML. The tag has several important attributes that are commonly used to define the properties of an image:
+src: The source of the image file, specified as a URL. This attribute is required for the <img> tag to work.
+alt: The alternative text for the image, which is used by screen readers and displayed when the image cannot be loaded. The alt attribute should describe 
+the content of the image and is important for accessibility.
+width and height: The width and height of the image in pixels. These attributes are optional, but they can be used to specify the size of the image if it 
+needs to be different from the actual size of the image file.
+title: The title text for the image, which is displayed as a tooltip when the user hovers over the image.
+style: The inline CSS styles for the image. This attribute can be used to apply CSS styles to the image directly, without the need for a separate CSS file.
+Example:
+<img src="image.jpg" alt="A picture of a cat" width="300" height="200" title="A cute cat" style="border: 1px solid black;">
+It's worth noting that the </img> tag doesn't exist in HTML. 
+The <img> tag is self-closing, meaning that it doesn't have a closing tag, and should be written as <img /> in XHTML or <img> in HTML5.
+
+
+3)How to interlink web pages and navigate people to other websites?
+The <a> (anchor) tag is used to create links in HTML, allowing users to navigate between pages and to other websites. The href attribute is used to specify
+the URL of the linked resource, and the text between the opening and closing <a> tags serves as the anchor text that is displayed to the user.
+
+Example:
+
+php
+Copy code
+<a href="https://www.example.com">Visit the Example website</a>
+In this example, the anchor text "Visit the Example website" is linked to the URL "https://www.example.com". When the user clicks the link, they will be 
+taken to the specified URL in their web browser.
+
+You can also create links to other pages within your own website by using relative URLs. For example:
+
+php
+Copy code
+<a href="about.html">Learn more about us</a>
+In this example, the link points to the "about.html" page within the same website.
+
+It's important to use meaningful and descriptive anchor text for links, as this helps users understand the context and destination of the link, 
+and it also improves the accessibility and search engine optimization (SEO) of your website.
