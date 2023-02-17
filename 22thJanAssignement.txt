@@ -1,0 +1,50 @@
+1.Explain the table and its property.
+Tables are used to organize and display the data in a structured way. 
+<table> : The main conatiner elemtn of the table.
+< tr> : defines the table row
+< th> : defines a table header cell
+< td> : Defines a table data cell, used for acutal data values.
+Rowspan and colspan: Attributes that allow cells to span multiple rows or columns.
+Borders: Can be added to the table or individual cells using CSS.
+Padding and spacing: Can also be added to cells using CSS.
+Responsive design: Tables can be made responsive using CSS media queries to adjust the layout for different screen sizes.
+
+
+
+2.Explain all media elements and how they work.
+The media element is used to display and play media files such as images, videos and audio. They are as follow.
+<img> element: Used to display images on a web page. The <img> element is a self-closing tag and includes the src attribute to specify the location of the 
+image file. Other attributes such as alt, width, and height can also be used to provide additional information about the image.
+<video> element: Used to embed videos on a web page. The <video> element includes a source tag (<source>) to specify the location of the video file, 
+as well as attributes such as width, height, and controls to customize the appearance and behavior of the video player.
+<audio> element: Used to embed audio files on a web page. The <audio> element is similar to the <video> element, and includes a source tag to specify 
+the location of the audio file, as well as attributes such as controls and loop to customize the behavior of the audio player.
+<source> element: Used to specify the location of media files for use with the <video> and <audio> elements. Multiple <source> elements can be used to 
+provide different file formats or resolutions for the same media file, allowing the browser to choose the best option based on the device and connection.
+<track> element: Used to add subtitles or captions to videos. The <track> element includes the kind attribute to specify the type of track 
+(e.g. subtitles or captions), as well as the src attribute to specify the location of the track file.
+
+
+3.What is get and post in form?
+In HTML, the GET and POST methods are used to submit form data to a server. Both methods are used to send data to the server, but they work in slightly
+different ways.When a form is submitted using the GET method, the data is appended to the URL in the form of a query string. This means that the data is 
+visible in the URL, and can be bookmarked or shared with others. The GET method is typically used for forms that retrieve data, such as a search form, and 
+is not recommended for forms that submit sensitive data such as passwords.
+In contrast, when a form is submitted using the POST method, the data is sent in the body of the HTTP request, rather than in the URL. This means that the 
+data is not visible in the URL, and is generally considered to be more secure than the GET method. The POST method is typically used for forms that submit 
+data to the server, such as a login form or a contact form.
+
+
+
+4. List all the input types we have in forms?
+<input type="text">: A simple text input field for the user to enter a single line of text.
+<input type="password">: A text input field that obscures the characters entered, typically used for passwords.
+<input type="email">: A text input field for the user to enter an email address. The browser will perform basic validation to ensure that the input 
+looks like an email address.
+<input type="number">: A text input field that allows the user to enter a number.
+<input type="checkbox">: A checkbox that the user can select or deselect.
+<input type="radio">: A set of radio buttons that allow the user to select one option from a group of options.
+<input type="date">: A text input field that allows the user to enter a date.
+<input type="file">: A file upload field that allows the user to select a file from their computer.
+<input type="submit">: A button that the user can click to submit the form.
+<input type="reset">: A button that the user can click to reset the form to its initial state.

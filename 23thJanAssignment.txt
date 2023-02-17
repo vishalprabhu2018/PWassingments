@@ -1,0 +1,67 @@
+1.What are the new things introduced in HTML 5?
+Semantic Elements: HTML5 introduced several new semantic elements such as <header>, <footer>, <nav>, and <article>. These elements make it easier to create 
+well-structured, meaningful web pages that are easier to read and understand.
+Audio and Video: HTML5 introduced new <audio> and <video> elements that make it easy to embed audio and video content directly into web pages without 
+the need for third-party plugins like Flash.
+Canvas: HTML5 introduced the <canvas> element, which provides a way to create dynamic, interactive graphics and animations using JavaScript.
+Local Storage: HTML5 introduced new local storage features that allow web pages to store data locally on the user's computer, making it possible to create 
+web applications that can work offline.
+Geolocation: HTML5 introduced a new geolocation feature that allows web pages to access the user's location, making it possible to create location-based 
+services.
+Web Workers: HTML5 introduced the concept of web workers, which allow web pages to run scripts in the background, freeing up the main thread for other tasks.
+Drag and Drop: HTML5 introduced new drag and drop features that make it easier to create interactive web applications that allow users to drag and drop items
+on the screen.
+Form Controls: HTML5 introduced several new form controls such as <input type="date">, <input type="time">, and <input type="range">, which make it easier to 
+create forms that are more user-friendly and interactive.
+
+2.What are semantic tags? Give a couple of examples.
+Semantic tags are HTML tags that describe the content they contain, rather than just indicating how the content should be displayed. Semantic tags are 
+designed to provide a clearer, more meaningful structure to web pages, making them easier to read and understand for both human readers and search engines. 
+Here are some examples of semantic tags:
+
+<header>: The <header> tag is used to define a header section for a web page or a section of a web page. The header typically includes the title or 
+logo of the page, as well as other introductory content.
+
+<nav>: The <nav> tag is used to define a section of a web page that contains navigation links. The navigation links typically allow users to move between 
+different pages or sections of the website.
+<article>: The <article> tag is used to define a self-contained section of content within a web page. The article typically contains a complete, standalone 
+piece of content, such as a blog post, news article, or product review.
+
+<section>: The <section> tag is used to define a generic section of a web page. The section may contain related content, 
+such as a group of blog posts or a set of products on an e-commerce site.
+
+<footer>: The <footer> tag is used to define a footer section for a web page or a section of a web page. 
+The footer typically includes copyright information, contact details, and other related content.
+
+By using semantic tags, web developers can create more structured, meaningful web pages that are easier to read and understand. This can improve the user 
+experience, make it easier for search engines to index and rank the content, and help ensure that the website is accessible to users with disabilities.
+
+
+
+3.List some uses of semantic tags.
+
+Semantic tags are HTML tags that provide a meaningful structure to the content on a web page. Here are some common uses of semantic tags:
+
+Improving Accessibility: Semantic tags can help make a website more accessible to users with disabilities, such as visual impairments. For example, 
+screen readers rely on semantic markup to identify the purpose and structure of the content on a web page.
+
+Enhancing SEO: Semantic tags can help improve a website's search engine optimization (SEO) by making it easier for search engines to understand the 
+content of the page. This can improve the page's ranking in search engine results.
+
+Organizing Content: Semantic tags can help to organize the content on a web page into logical sections, making it easier for users to read and navigate. 
+For example, the <header> tag can be used to identify the top of the page, the <nav> tag can be used to indicate the navigation menu, and the <footer> 
+tag can be used to identify the bottom of the page.
+
+Creating Structured Data: Semantic tags can be used to create structured data that can be easily understood by other web applications. For example, 
+the <article> tag can be used to identify a blog post, while the <product> tag can be used to identify a product listing.
+
+Supporting Responsive Design: Semantic tags can be used to create a more flexible and responsive design for a website, making it easier to adapt to 
+different screen sizes and device types.
+
+Overall, semantic tags can be used to provide a clearer, more meaningful structure to the content on a web page, making it easier to read and understand
+for both users and machines.
+
+
+
+
+
