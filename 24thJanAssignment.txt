@@ -1,0 +1,96 @@
+What is CSS and why we use it?
+CSS stands for Cascading Style Sheets. It is a programming language used to describe the look and formatting of a document written in HTML or XML. 
+In simpler terms, CSS is used to style and design web pages.
+CSS provides a way to separate the presentation and layout of a web page from its content. By using CSS, designers can define how elements such as text, 
+images, and other media should appear on a web page, including their size, color, font, spacing, and layout.
+CSS allows developers to create visually appealing and professional-looking web pages. It enables them to create complex layouts, add animations, and make 
+responsive designs that adapt to different screen sizes and devices. It also improves the performance of web pages by reducing the amount of code required 
+to achieve a particular visual effect.
+
+In summary, CSS is a crucial component of web development, allowing designers and developers to create attractive, well-organized, and functional web pages.
+
+
+
+
+
+2. What are the different ways to bring CSS into an HTML file?
+There are three main ways to bring CSS into an HTML file:
+Inline CSS: Inline CSS is used to apply styles directly to an individual HTML element. To use inline CSS, you can add the "style" attribute to an HTML
+tag and specify the styles you want to apply within the attribute. For example:
+
+<h1 style="color: red; font-size: 24px;">Hello World!</h1>
+
+Internal CSS: Internal CSS is used to apply styles to a whole HTML page. To use internal CSS, you can add a "style" element to
+the head section of an HTML document and specify the styles you want to apply within the element. For example:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <style>
+      h1 {
+        color: red;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+
+
+External CSS: External CSS is used to apply styles to multiple HTML pages. To use external CSS, you can create a separate CSS file with all the styles 
+and link it to the HTML page using the "link" element. For example:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+
+
+
+
+
+3. What do you mean by specificity in CSS?
+
+In CSS, specificity is a way of determining which styles should be applied to an element when there are conflicting styles defined. 
+Specificity is based on the selectors used to target the element.
+Each selector has a specificity score, which is calculated based on the following rules:
+Selector types are ranked from most specific to least specific, as follows:
+
+Inline styles have the highest specificity (1,0,0,0).
+ID selectors have a specificity of (0,1,0,0).
+Class selectors, attribute selectors, and pseudo-classes have a specificity of (0,0,1,0).
+Type selectors and pseudo-elements have the lowest specificity of (0,0,0,1).
+When selectors have equal specificity, the last selector to appear in the CSS document takes precedence.
+
+For example, consider the following CSS rules
+
+h1 {
+  color: red;
+}
+
+#my-heading {
+  color: blue;
+}
+
+
+In this example, the first rule targets all h1 elements and sets their color to red. The second rule targets the element with the id of "my-heading" and 
+sets its color to blue. Since the id selector has a higher specificity than the type selector, the color of the h1 element with the id of "my-heading" will
+be blue, while all other h1 elements will be red.
+
+Understanding CSS specificity is important when writing styles that will apply consistently across an entire site, and when resolving conflicts between 
+conflicting styles. It is best practice to write selectors that are as specific as needed to avoid unintended side effects or complex style overrides.
+
+
+
+
+
+

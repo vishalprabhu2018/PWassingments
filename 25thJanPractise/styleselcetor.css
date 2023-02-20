@@ -1,0 +1,40 @@
+  
+
+  /*Desendent Sel*/
+  main p{
+    color: red;
+  }
+
+
+  /*Child selector*/
+
+  h1>p{
+    color: blue;
+  }
+
+  
+  /* Adjacent sibling selector */
+  /* section + p {
+    color: yellow;
+  } */
+
+
+  /* General Sibliling selector */
+
+section ~ p{
+    color: violet;
+}
+
+
+/* Attribute Selector */
+
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
+
+
+/*To target exact element */
+[alt="PW"]{
+    background-color: red;
+}

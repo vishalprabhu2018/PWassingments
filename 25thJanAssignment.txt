@@ -1,0 +1,74 @@
+1)Why CSS selectors are used in HTML?
+CSS selectors are used in HTML to target and style specific elements on a web page. By using CSS selectors, you can apply styles such as color, 
+font size, layout, and more to specific elements or groups of elements, without affecting other parts of the page.
+
+HTML provides the structure and content of a web page, while CSS is used to define how that content should be presented visually.
+CSS selectors allow you to specify which elements should be styled and how, based on their attributes, class names, IDs, and other characteristics.
+
+For example, you could use a CSS selector to target all paragraphs on a page and change their font size or color. Or you could use a more specific selector 
+to target only certain paragraphs with a particular class or ID. This makes it easy to create a consistent visual style across a website, while also allowing
+for flexibility and customization on a page-by-page or element-by-element basis.
+
+Overall, CSS selectors are an essential tool for web designers and developers who want to create attractive, responsive, and user-friendly web pages.
+
+
+2)What are the different types of Selectors in CSS?
+We can divide CSS selectors into five categories:
+1. Simple selectors.
+2. Combinators.
+3. Attribute selectors.
+4. Pseudo-class selectors.
+5. Pseudo-elements selectors
+
+Simple selectors
+A simple selector is either a type selector or a universal selector. Simple 
+selectors are pretty straightforward and used most of the time in 
+development.
+Simple Selectors include
+1. Universal Selector.
+2. Element Selector.
+3. Class Selector.
+4. ID Selector.
+5. Selector list
+
+
+CSS Combinators.
+A CSS selector can contain more than one simple selector. 
+Between the simple selectors, we can include a combinator.
+Combinator Selectors include
+1. Descendent selector.
+2. Child selector.
+3. Adjacent sibling selector.
+4. General sibling selector.
+
+Attribute selectors
+The [attribute="value"] selector is used to select elements with a specified 
+attribute and value.
+
+3)How do you include external fonts and apply them?
+
+To include external fonts in HTML and apply them using CSS, you can follow these steps:
+Choose a font from a reputable external source such as Google Fonts, Adobe Fonts or Font Squirrel.
+
+Include the font in your HTML document by adding a link to the font file in the <head> section of your HTML document.
+Here's an example of how to add a font file hosted on Google Fonts:
+
+<link href="https://fonts.googleapis.com/css?family=FontName" rel="stylesheet">
+
+
+Replace FontName with the name of the font you want to use.
+Define the font in your CSS. To apply the font, use the font-family property and set it to the name of the font you want to use. 
+Here's an example of how to apply a font called Open Sans to all paragraphs on your page:
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+In this example, we're using the font-family property to specify the font we want to use. We're also providing a fallback font family of sans-serif in case
+the external font fails to load.
+Test and refine your font styling. Once you've included and applied the external font to your HTML and CSS, be sure to test your page to make sure the font
+is displaying correctly. You may also want to experiment with different font sizes, weights, and styles to achieve the desired effect.
+
+Overall, including and applying external fonts using HTML and CSS is a relatively simple process that can help you achieve more unique and visually 
+appealing designs for your web pages.

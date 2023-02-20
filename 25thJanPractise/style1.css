@@ -1,0 +1,44 @@
+
+/*Universal Selector*/
+*{
+    margin:0;
+    padding: 0;
+    /* It is used to overwrite the default margin and padding of a web browser */
+}
+
+
+ /* Element Selector */
+/* h1{
+    color:#808081;
+}
+
+p{
+    color: red;
+} */
+
+
+ /* Class Selector */
+ .para{
+    color:red;
+ }
+
+ .hello{
+    font-size:60px;
+ }
+
+ /* Id selector  */  
+
+ /* It should be uniqe it has greater priority than class*/
+
+ #id1{
+    color:white;
+    background-color: black;
+ }
+
+
+ /* Selector List */
+
+
+.class1, .class7, .class10{
+
+}
