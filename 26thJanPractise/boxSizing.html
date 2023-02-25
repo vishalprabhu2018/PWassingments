@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box sizing</title>
+    <style>
+        .border{
+        
+            border:30px solid red;
+            padding: 20px; 
+            background-color: grey;
+            width:500px;    
+            box-sizing: border-box;
+        }
+        .content{
+            border:30px solid red;
+            padding: 20px; 
+            background-color: grey;
+            width:500px;    
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+     <!-- Box Sizing -->
+    <!-- box-sizing: border box (In this the width of the element remains same if we add border or any extra padding . 
+        If we added padding or any border the width of the element increased to tackle this problem box sizing will help with the property of the border box. In this the width remains same and intact ) 
+    
+        content box will help with the fix content in the website
+    -->
+    <p class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur animi, ipsa veniam quisquam itaque at maiores nam dolorem quas, corporis enim dolore voluptatum. Hic tempora dolorum quasi quidem nesciunt.</p>
+
+
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestias ex modi vitae eum sit obcaecati at natus eveniet eligendi ratione ducimus dolores inventore consectetur unde nisi voluptas, excepturi minima veritatis voluptates sunt sapiente ea velit. Accusamus ullam iure unde non dolores sit tenetur ipsa earum natus voluptas aperiam commodi at cumque alias ab quidem exercitationem, fuga beatae dicta? Necessitatibus.</p>
+</body>
+</html>

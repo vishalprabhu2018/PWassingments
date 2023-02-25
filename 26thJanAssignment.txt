@@ -1,0 +1,58 @@
+1)What is padding and margin and when do you use them?
+Padding and margin are CSS properties used for layout and spacing of elements on a webpage.
+Margin refers to the space outside an element's border, while padding refers to the space inside an element's border. 
+You can use margin to create spacing between elements or to push an element away from the edge of the screen or another element. 
+Padding is often used to create space between an element's content and its border.
+Here are some common use cases for margin and padding:
+
+Use margin to create space between elements on a page, such as between sections or paragraphs of text.
+Use padding to create space around an element's content, such as within a button or a box.
+Use negative margin to overlap elements or pull them closer together.
+Use padding to ensure that text or other content does not touch an element's border or edge.
+Overall, margin and padding are useful for creating white space and visual separation between elements on a webpage. 
+They are essential tools for web designers and developers to create visually appealing and functional layouts.
+
+
+
+2)What is display property and explain display inline, block and inline-block?
+Padding and margin are CSS properties used for layout and spacing of elements on a webpage.
+
+Margin refers to the space outside an element's border, while padding refers to the space inside an element's border. 
+You can use margin to create spacing between elements or to push an element away from the edge of the screen or another element. 
+Padding is often used to create space between an element's content and its border.
+
+Here are some common use cases for margin and padding:
+
+Use margin to create space between elements on a page, such as between sections or paragraphs of text.
+Use padding to create space around an element's content, such as within a button or a box.
+Use negative margin to overlap elements or pull them closer together.
+Use padding to ensure that text or other content does not touch an element's border or edge.
+Overall, margin and padding are useful for creating white space and visual separation between elements on a webpage. 
+They are essential tools for web designers and developers to create visually appealing and functional layouts.
+
+
+
+
+3)Explain min-height, min-width, max-height and max width in CSS?
+The display property in CSS is used to specify how an HTML element should be displayed on the webpage. The three most common values for the display
+property are:
+
+inline - This displays an element as an inline element, meaning that it will flow with the surrounding text and other inline elements. 
+Examples of inline elements include links (<a>), images (<img>), and spans (<span>).
+
+block - This displays an element as a block-level element, meaning that it will take up the full width of its parent container and create a new line before
+and after it. Examples of block-level elements include paragraphs (<p>), headings (<h1>-<h6>), and divs (<div>).
+
+inline-block - This displays an element as an inline-level element that can also have a width, height, padding, and margin. This is useful when you 
+want an element to be positioned inline with other elements, but also have some block-level properties. Examples of inline-block elements include 
+buttons (<button>), form inputs (<input>), and images (<img>).
+
+Other values for the display property include none, which hides an element from the webpage, and flex, which creates a flexible container for laying out 
+elements in rows or columns.
+
+By using the display property, you can control the layout and behavior of HTML elements on your webpage, allowing you to create 
+visually appealing and functional designs.
+
+
+
+

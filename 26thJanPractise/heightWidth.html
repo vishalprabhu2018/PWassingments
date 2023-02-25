@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height and width</title>
+    <style>
+        .width{
+            max-width: 100px;
+            display:inline-block;
+            border: 2px solid red;
+            background-color: grey;
+        }
+        .height{
+          height: 30px;
+          border:2px solid red;
+          background-color: grey;
+          overflow:hidden;
+          /* in this extra element which is not fitting in the box which had came outside
+          is not shown ie hidden */
+        }
+        .box{
+
+        }
+    </style>
+</head>
+<body>
+    <!-- width -->
+
+    <p class="width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, suscipit.</p>
+
+
+    <!-- Height -->
+
+    <p class="height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laudantium!default Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus labore ea temporibus, incidunt officia vero dolorum qui veniam, maiores consectetur repellendus. Maiores modi ea porro, autem aliquid explicabo fugiat! Dolor sint veritatis perspiciatis, quas suscipit nobis distinctio quod ab illum nulla animi id voluptates. Mollitia labore qui esse tempore.</p>
+
+
+    <!-- Box Sizing -->
+    <!-- box-sizing: border box (In this the width of the element remains same if we add border or any extra padding . 
+        If we added padding or any border the width of the element increased to tackle this problem box sizing will help with the property of the border box. In this the width remains same and intact ) 
+    
+        content box will help with the fix content in the website
+    -->
+     <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, mollitia?</p>
+</body>
+</html>

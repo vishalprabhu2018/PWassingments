@@ -1,0 +1,79 @@
+1)What are media queries in CSS and their use cases?
+
+In CSS, media queries are used to apply different styles to a web page based on the device or screen size it is being viewed on. Media queries allow you to 
+create responsive designs that adapt to different screen sizes and orientations, providing the best user experience for each device.
+
+Media queries are written as conditional statements that target specific device characteristics, such as screen width, height, orientation, and resolution. 
+For example, you can use a media query to apply a different style to a web page when it is viewed on a mobile device with a smaller screen size.
+
+Here's an example of a media query in CSS:
+
+@media screen and (max-width: 768px) {
+  /* styles for screens with a maximum width of 768 pixels */
+}
+
+
+
+In this example, the media query targets screens with a maximum width of 768 pixels and applies styles to the elements inside the query brackets.
+Media queries are commonly used to create responsive web designs that adapt to different screen sizes, such as smartphones, tablets, and desktops. 
+They are also used to apply different styles to printed pages, and to target specific devices like printers and projectors.
+Overall, media queries are an essential tool for creating modern, flexible, and user-friendly web designs that work well on a variety of devices and 
+platforms.
+
+
+
+
+
+2)Difference between min-width and max-width in media queries in CSS?
+
+In CSS, media queries are used to apply different styles to a web page based on the characteristics of the device that the page is being viewed on, 
+such as screen width or height.
+min-width and max-width are two commonly used properties in media queries that define the range of screen sizes that the styles should apply to.
+min-width is used to specify the minimum width at which the styles should be applied. For example, if you want to apply a particular style only 
+when the screen width is greater than or equal to 768px, you would use the following media query:
+
+@media screen and (min-width: 768px) {
+  /* styles go here */
+}
+
+In this case, the styles within the media query will only be applied when the screen width is 768px or larger.
+max-width is used to specify the maximum width at which the styles should be applied. For example, if you want to apply a particular style only when the 
+screen width is less than or equal to 768px, you would use the following media query:
+
+@media screen and (max-width: 768px) {
+  /* styles go here */
+}
+
+In this case, the styles within the media query will only be applied when the screen width is 768px or smaller.
+In summary, min-width is used to apply styles when the screen width is equal to or greater than a certain value, while max-width is used to apply styles 
+when the screen width is equal to or less than a certain value.
+
+
+
+
+
+3)Explain float property and clear property in CSS with examples.
+
+The float and clear properties in CSS are used to control the layout and positioning of elements on a webpage.
+The float property is used to specify whether an element should be floated to the left or right of its container. When an element is floated, 
+it is taken out of the normal flow of the page and positioned at the edge of its container, allowing other elements to wrap around it.
+Here is an example of using the float property to position an image to the right of its container:
+img {
+  float: right;
+}
+
+The clear property is used to control the behavior of an element in relation to floated elements. When an element is cleared, it is moved below any 
+floated elements that come before it. This is useful for ensuring that elements in a layout do not overlap or interfere with each other.
+Here is an example of using the clear property to ensure that a heading appears below any floated images in its container:
+h2 {
+  clear: both;
+}
+
+In this example, the clear property is set to both, which means that the heading will be moved below any floated elements that come before it on both the 
+left and right sides.
+
+
+
+
+
+
