@@ -5,7 +5,6 @@ to control layout and positioning of elements.
 There are five different values for the position property in CSS:
 
 Static: This is the default value, and it means that the element is positioned according to the normal flow of the document.
-
 Relative: This value positions an element relative to its normal position in the document flow. It allows you to use the top, bottom, left, and right properties to adjust the position of the element.
 
 Absolute: This value positions an element relative to its nearest positioned ancestor. If no ancestor is positioned, it is positioned relative to the initial containing block. It also allows you to use the top, bottom, left, and right properties to adjust the position of the element.
