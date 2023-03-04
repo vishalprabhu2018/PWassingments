@@ -6,13 +6,9 @@ There are five different values for the position property in CSS:
 
 Static: This is the default value, and it means that the element is positioned according to the normal flow of the document.
 Relative: This value positions an element relative to its normal position in the document flow. It allows you to use the top, bottom, left, and right properties to adjust the position of the element.
-
 Absolute: This value positions an element relative to its nearest positioned ancestor. If no ancestor is positioned, it is positioned relative to the initial containing block. It also allows you to use the top, bottom, left, and right properties to adjust the position of the element.
-
 Fixed: This value positions an element relative to the viewport, which means it will stay in the same position even if the page is scrolled. It also allows you to use the top, bottom, left, and right properties to adjust the position of the element.
-
 Sticky: This value positions an element relative to its nearest ancestor with a scrolling mechanism (overflow:auto, overflow-y:scroll, or overflow-x:scroll), and stays in its position as long as the viewport allows scrolling. It also allows you to use the top, bottom, left, and right properties to adjust the position of the element.
-
 Using the position property, you can control the position of elements on your web page and create dynamic and interactive layouts.
 
 
@@ -25,15 +21,9 @@ There are 5 types of positioning is there in CSS ie Static, Relative, Absolute, 
 
 
 3)What is Z-index and why to use it?
-
 Z-index is a CSS property that specifies the stacking order of HTML elements that are positioned on top of each other. It is used to control the vertical order of elements on a web page, and it works by assigning a numerical value to each element.
-
-The Z-index property takes an integer value, where higher values are positioned above lower values. An element with a higher Z-index will appear on top of elements with lower Z-index values, regardless of the order in which the elements appear in the HTML code.
-
-Z-index is particularly useful when working with overlapping elements, such as images, text, or menus. By assigning a higher Z-index value to an element, you can ensure that it appears on top of other elements on the page. This can be useful when creating drop-down menus or when you want to ensure that an element always appears in front of another element.
-
+The Z-index property takes an integer value, where higher values are positioned above lower values. An element with a higher Z-index will appear on top of elements with lower Z-index values, regardless of the order in which the elements appear in the HTML code.Z-index is particularly useful when working with overlapping elements, such as images, text, or menus. By assigning a higher Z-index value to an element, you can ensure that it appears on top of other elements on the page. This can be useful when creating drop-down menus or when you want to ensure that an element always appears in front of another element.
 It's important to note that Z-index only applies to positioned elements (i.e., elements that have a position value of "absolute", "fixed", "relative", or "sticky"). Also, Z-index values are relative to their containing block, which means that the stacking order of an element may be different depending on its context.
-
 Overall, Z-index is a powerful tool for controlling the layout and appearance of a web page, and it can help ensure that your content is displayed in the way you want it to be.
 
 
