@@ -18,10 +18,14 @@ CSS Grid is supported in all modern web browsers, and can be used in conjunction
 2)What is the difference between flex and grid?
 Flexbox and CSS Grid are both layout systems in CSS that allow you to create complex and responsive layouts on your web page. While they share some similarities, there are also some key differences between the two systems.
 
-The main difference between Flexbox and CSS Grid is that Flexbox is designed to create one-dimensional layouts (either rows or columns), while CSS Grid is designed to create two-dimensional layouts (rows and columns together). This means that Flexbox is better suited for layouts that require elements to be arranged along a single axis (such as a horizontal row or a vertical column), while CSS Grid is better suited for layouts that require elements to be arranged along both axes (such as a grid of images or a magazine-style layout).
+The main difference between Flexbox and CSS Grid is that Flexbox is designed to create one-dimensional layouts (either rows or columns), while CSS Grid is designed to 
+create two-dimensional layouts (rows and columns together). This means that Flexbox is better suited for layouts that require elements to be arranged along a single 
+axis (such as a horizontal row or a vertical column), while CSS Grid is better suited for layouts that require elements to be arranged along both axes (such as a grid 
+of images or a magazine-style layout).
 
-
-Another difference between Flexbox and CSS Grid is that Flexbox is more flexible and easier to use for simple layouts, while CSS Grid is more powerful and better suited for complex, multi-dimensional layouts. Flexbox is also easier to understand and has better browser support, while CSS Grid is more complex and has somewhat limited browser support for older browsers.
+Another difference between Flexbox and CSS Grid is that Flexbox is more flexible and easier to use for simple layouts, while CSS Grid is more powerful and better 
+suited for complex, multi-dimensional layouts. Flexbox is also easier to understand and has better browser support, while CSS Grid is more complex and has somewhat 
+limited browser support for older browsers.
 
 In terms of syntax, Flexbox uses the "display: flex" property on a container element, while CSS Grid uses the "display: grid" property. Both systems use different properties and values to control the layout and positioning of elements within the container.
 
@@ -30,9 +34,11 @@ In terms of syntax, Flexbox uses the "display: flex" property on a container ele
 
 To define rows and columns for your CSS Grid layout, you can use the "grid-template-rows" and "grid-template-columns" properties.
 
-The "grid-template-rows" property is used to define the height of each row in the grid. You can specify the height of each row using a space-separated list of values, such as "100px 50px 200px". You can also use different units, such as percentages or "fr" units (which represent a fraction of the available space).
+The "grid-template-rows" property is used to define the height of each row in the grid. You can specify the height of each row using a space-separated list of values, 
+such as "100px 50px 200px". You can also use different units, such as percentages or "fr" units (which represent a fraction of the available space).
 
-The "grid-template-columns" property is used to define the width of each column in the grid. It works in the same way as the "grid-template-rows" property, and you can use a space-separated list of values to define the width of each column.
+The "grid-template-columns" property is used to define the width of each column in the grid. It works in the same way as the "grid-template-rows" property, and you 
+can use a space-separated list of values to define the width of each column.
 
 For example, to create a grid with three rows and three columns, where each row and column is 100 pixels wide and 50 pixels tall, you can use the following CSS:
 
@@ -44,8 +50,8 @@ For example, to create a grid with three rows and three columns, where each row 
 }
 This will create a grid with three rows and three columns, with each cell measuring 100 pixels wide by 50 pixels tall.
 
-You can also use other properties, such as "grid-template-areas" or "grid-template", to define the structure of your grid, depending on your specific needs. The important thing is to understand the basic properties and syntax of CSS Grid, and to experiment with different values and layouts to create the desired effect.
-
+You can also use other properties, such as "grid-template-areas" or "grid-template", to define the structure of your grid, depending on your specific needs. The 
+important thing is to understand the basic properties and syntax of CSS Grid, and to experiment with different values and layouts to create the desired effect.
 
 
 
