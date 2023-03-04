@@ -31,7 +31,8 @@ Another difference between Flexbox and CSS Grid is that Flexbox is more flexible
 suited for complex, multi-dimensional layouts. Flexbox is also easier to understand and has better browser support, while CSS Grid is more complex and has somewhat 
 limited browser support for older browsers.
 
-In terms of syntax, Flexbox uses the "display: flex" property on a container element, while CSS Grid uses the "display: grid" property. Both systems use different properties and values to control the layout and positioning of elements within the container.
+In terms of syntax, Flexbox uses the "display: flex" property on a container element, while CSS Grid uses the "display: grid" property. Both systems use different 
+properties and values to control the layout and positioning of elements within the container.
 
 
 3)How can you define rows and columns for your grid?
