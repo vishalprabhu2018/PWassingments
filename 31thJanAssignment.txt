@@ -1,8 +1,11 @@
 1)What is the grid?
 
-CSS Grid is a layout system in CSS that allows you to create complex, two-dimensional layouts with rows and columns. It is a powerful tool for creating responsive and flexible web page layouts that adapt to different screen sizes and devices.
+CSS Grid is a layout system in CSS that allows you to create complex, two-dimensional layouts with rows and columns. It is a powerful tool for creating responsive and 
+flexible web page layouts that adapt to different screen sizes and devices.
 
-With CSS Grid, you can divide your web page into a grid of rows and columns, and then place elements within the grid using grid lines and grid areas. This gives you precise control over the placement and spacing of your content, and allows you to create complex layouts that would be difficult or impossible to achieve with other CSS layout systems.
+With CSS Grid, you can divide your web page into a grid of rows and columns, and then place elements within the grid using grid lines and grid areas. This gives you 
+precise control over the placement and spacing of your content, and allows you to create complex layouts that would be difficult or impossible to achieve with other 
+CSS layout systems.
 
 CSS Grid provides a variety of features that make it a flexible and powerful layout system, including:
 
@@ -12,7 +15,8 @@ Grid lines: Lines that define the edges of grid cells and areas.
 Grid templates: Declarations that define the structure of the grid.
 Grid items: Elements that are placed within the grid cells and areas.
 
-CSS Grid is supported in all modern web browsers, and can be used in conjunction with other layout systems, such as Flexbox, to create even more complex and responsive layouts. It is a valuable tool for web developers and designers who want to create dynamic, responsive web pages with advanced layouts and design elements.
+CSS Grid is supported in all modern web browsers, and can be used in conjunction with other layout systems, such as Flexbox, to create even more complex and 
+responsive layouts. It is a valuable tool for web developers and designers who want to create dynamic, responsive web pages with advanced layouts and design elements.
 
 
 2)What is the difference between flex and grid?
