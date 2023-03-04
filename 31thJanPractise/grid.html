@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border:2px solid black; */
+            height: 400px;
+            display: grid;
+            /* grid-template-areas: "a a"; */
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3,160px);
+
+        }
+        .box{
+            /* height: 100px;
+            width:100px; */
+        }
+        .box1{
+            background-color: red;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+        .box2{
+            background-color: blue;
+
+        }
+        .box3{
+            background-color: bisque;
+
+        }
+        .box4{
+            background-color: yellow;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+        .box5{
+            background-color:lightgray;
+
+        }
+        .box6{
+            background-color: darkmagenta;
+
+        }
+        .box7{
+            background-color: olive;
+        }
+        .box8{
+            background-color: black;
+        }
+        .box9{
+            background-color: turquoise;
+        }
+        
+        .abc{
+            /* height:50px; */
+            /* border:10px solid black; */
+             
+        }
+        
+        .container2{
+            display:grid;
+            grid-gap: 2px;
+            grid-template-columns: Repeat(3,1fr);   
+        }
+         .abc1{
+            grid-column: 3;
+            grid-row: 3;
+            
+         }
+
+         .abc2{
+            grid-column: 1;
+            grid-row: 3;
+            
+         }
+         .abc3{
+            grid-column: 2;
+            grid-row: 3;
+            
+         }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1 container2">
+            <div class="abc abc1">
+                <img src="https://cdn.pixabay.com/photo/2023/01/31/05/59/zebra-7757193_1280.jpg" alt="zebra" height="50px" width="100px">
+                
+            </div>
+            <div class="abc abc2">
+               <img src="https://cdn.pixabay.com/photo/2014/05/26/13/32/butterfly-354528_1280.jpg" alt="butterfly" height="50px" width="100px">
+            </div>
+            <div class="abc abc3">
+                <img src="https://cdn.pixabay.com/photo/2014/05/26/13/32/butterfly-354528_1280.jpg" alt="butterfly" height="50px" width="100px">
+            </div>
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+    </div>
+</body>
+</html>
