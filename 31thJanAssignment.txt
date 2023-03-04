@@ -20,7 +20,8 @@ responsive layouts. It is a valuable tool for web developers and designers who w
 
 
 2)What is the difference between flex and grid?
-Flexbox and CSS Grid are both layout systems in CSS that allow you to create complex and responsive layouts on your web page. While they share some similarities, there are also some key differences between the two systems.
+Flexbox and CSS Grid are both layout systems in CSS that allow you to create complex and responsive layouts on your web page. While they share some similarities, 
+there are also some key differences between the two systems.
 
 The main difference between Flexbox and CSS Grid is that Flexbox is designed to create one-dimensional layouts (either rows or columns), while CSS Grid is designed to 
 create two-dimensional layouts (rows and columns together). This means that Flexbox is better suited for layouts that require elements to be arranged along a single 
