@@ -1,6 +1,5 @@
 1) What is HTML?
-HTML is a hypertext markup languange and it is used to create web pages. It provides a structure for the content on a web page and allows you to 
-add text, images, videos, links and other elements to a web page. 
+HTML is a hypertext markup languange and it is used to create web pages. It provides a structure for the content on a web page and allows you to add text, images, videos, links and other elements to a web page. 
 HTML is used in conjunction with other technologies such as CSS and JavaScript to create dynamic and interactive web pages.
 
 
