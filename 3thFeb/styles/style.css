@@ -83,7 +83,7 @@ button:hover{
     font-weight: 900;
     font-size: 100px;
     color: #eabf13;
-    line-height: 85px;
+    line-height: 85px;   /*Imp property*/
     /* width: 1000px; */
 }
 
@@ -95,7 +95,7 @@ main button{
 
 
 .scroll{
-    margin-left: 1270px;
-    margin-top: 30px;
+    margin-left: 1143px;
+    margin-top: -20px;
    
 }
