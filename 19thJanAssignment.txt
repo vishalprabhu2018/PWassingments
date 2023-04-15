@@ -11,8 +11,7 @@ In html we write comment in this way for eg <!-- this is comment tag in html -->
 Syntax: <!-- content -->
 
 3) What are elements tags and attributes and the diffrent between them.
-Elements are the building blocks of HTML (Hypertext Markup Language) that define the structure and content of a web page. For example,
-the paragraph element is written as <p>, and its content goes between the opening <p> and closing </p> tags.
+Elements are the building blocks of HTML (Hypertext Markup Language) that define the structure and content of a web page. For example, the paragraph element is written as <p>, and its content goes between the opening <p> and closing </p> tags.
 Attributes are used to provide additional information or modify the default behavior of an HTML element. 
 They are added to the opening tag of an element, in the form of key-value pairs. For example, the "src" attribute in an <img> element specifies the source URL of an image.
 So, in short, elements define the structure and content of a web page, while attributes provide additional information or modify the default behavior of elements.
