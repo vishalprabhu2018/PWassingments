@@ -11,4 +11,5 @@ window.addEventListener("keydown",(e)=>{
 document.addEventListener("keyup",(e)=>{
     op.style.color='blue';
     op.innerText=`keyup ${e.key}`
+    console.log(e);
 } )

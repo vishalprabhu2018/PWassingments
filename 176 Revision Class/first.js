@@ -11,10 +11,11 @@ let isLoggedIn=true;
 isLoggedIn?console.log('logged in'):console.log('not logged in');
 
 
-arr=['vishal','2']
+let arr=['vishal','2']
 
 for(let i=0; i<arr.length; i++)
 {
-    const element=arr[i];
-    console.log(arr[i]);
+    let el=arr[i];
+    console.log(el);
+    //  console.log(arr[i]);
 }

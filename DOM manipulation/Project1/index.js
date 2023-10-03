@@ -18,3 +18,9 @@ function changeRandomColor(){
 
 
 btnE1.addEventListener('click',changeRandomColor);
+btnE1.addEventListener('mousedown',()=>{
+    btnE1.style.backgroundColor=randomColor();
+})
+btnE1.addEventListener('mouseout',()=>{
+   btnE1.style.backgroundColor='white';
+})
