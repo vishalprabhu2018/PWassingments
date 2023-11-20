@@ -7,11 +7,29 @@ This function could be useful for the store's marketing team to create promotion
 customers.
 */
 
-rs discount products 
-perctage ka discount to show them how much they can SVGAElement
-original price //  discounted price 
+// rs discount products 
+// perctage ka discount to show them how much they can save
+// original price //  discounted price 
 
 
-let originalPrice=20;
-let discountPrice=40;
+let originalPrice=[20,30,40,50,89];
+let discountedPrice=[18,24,23, 43,70];
 
+
+function discountPercent(originalPrice,discountedPrice){
+    // let difference=originalPrice-discountedPrice;
+    // let discountPercent=(difference*100)/originalPrice
+
+    
+let arr=originalPrice.map((element,i)=>{
+        let difference=element-discountedPrice[i];
+       return element=(difference *100)/elemnt;
+})
+return arr;
+}
+
+
+console.log(discountPercent(originalPrice,discountedPrice))
+// difference =originalPrice-discountPrice
+
+// discountPercent=(difference*100)/originalPrice
