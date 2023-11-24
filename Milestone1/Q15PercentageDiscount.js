@@ -23,7 +23,7 @@ function discountPercent(originalPrice,discountedPrice){
     
 let arr=originalPrice.map((element,i)=>{
         let difference=element-discountedPrice[i];
-       return element=(difference *100)/elemnt;
+       return element=(difference *100)/element;
 })
 return arr;
 }
