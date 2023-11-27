@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #movingImage {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      id="movingImage"
+      src="https://source.unsplash.com/3tYZjGSBwbk"
+      alt="Moving Image"
+      height="50px"
+      width="50px"
+    />
+
+    <script>
+      // Get the reference to the moving image
+      const movingImage = document.getElementById("movingImage");
+
+      // Set the initial position
+      let positionX = 50;
+      let positionY = 50;
+
+      // Set the amount of pixels to move per arrow key press
+      const moveAmount = 10;
+
+      // Function to update the position of the image
+      function updatePosition() {
+        movingImage.style.top = positionY + "px";
+        movingImage.style.left = positionX + "px";
+      }
+
+      // Event listener for keydown events
+      document.addEventListener("keydown", function (event) {
+        switch (event.key) {
+          case "ArrowUp":
+            positionY -= moveAmount;
+            break;
+          case "ArrowDown":
+            positionY += moveAmount;
+            break;
+          case "ArrowLeft":
+            positionX -= moveAmount;
+            break;
+          case "ArrowRight":
+            positionX += moveAmount;
+            break;
+        }
+        // Update the position after each key press
+        updatePosition();
+      });
+    </script>
+  </body>
+</html>
