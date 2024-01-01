@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    gap: 60em;
+}
+
+.link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px 4px;
+}
+
+.link:hover {
+    background-color: antiquewhite;
+}
+
+.link a {
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    outline: none;
+}
+
+
+
+.card p {
+    font-size: small;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    width: 160px;
+    padding: 4px 4px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+.card h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    padding-right: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+    background-color: rgb(252, 220, 220);
+    color: rgb(195, 147, 147);
+    border: none;
+    border-radius: 5px;
+}
+
+.main {
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 200px 200px 200px;
+}
+
